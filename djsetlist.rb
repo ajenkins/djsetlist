@@ -74,6 +74,13 @@ class DjSetlist
     end
     song_chains.max_by(&:length)
   end
+
+  def find_longest_chain
+    song_chains = @songs.map do |song|
+      find_longest_chain_from(song, @songs.reject {|s| song == s})
+    end
+    song_chains.max_by(&:length)
+  end
 end
 
 # load './djsetlist.rb'
