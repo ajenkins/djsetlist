@@ -1,5 +1,6 @@
 require 'set'
 require 'yaml'
+require 'pry'
 
 $bpm_tolerance = 0.1
 $camelot_wheel = {
@@ -59,4 +60,23 @@ class DjSetlist
   def compatible_songs(song, candidate_songs)
     candidate_songs.select {|s| compatible_key(song, s) and similar_bpm(song, s)}
   end
+
+  def find_longest_chain_from(song, remaining_songs)
+    if remaining_songs.empty?
+      return [song]
+    end
+    possibly_next = compatible_songs(song, remaining_songs)
+    if possibly_next.empty?
+      return [song]
+    end
+    song_chains = possibly_next.map do |next_song|
+      [song] + find_longest_chain_from(next_song, remaining_songs.reject {|s| next_song == s})
+    end
+    song_chains.max_by(&:length)
+  end
 end
+
+# load './djsetlist.rb'
+# dj = DjSetlist.new('party_bangers.yml')
+# songs = dj.songs
+# dj.find_longest_chain_from(songs[0], songs.drop(1))
