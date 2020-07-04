@@ -120,9 +120,6 @@ class DjSetlist
   end
 end
 
-dj = DjSetlist.new('plasma20_unsorted.yml')
-# songs = dj.songs
-# song_graph = dj.song_graph
-# puts(song_graph)
-# longest = dj.find_longest_chain()
-# File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
+dj = DjSetlist.new('plasma20_trimmed.yml')
+longest = dj.find_longest_chain()
+File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
