@@ -1,6 +1,8 @@
 require 'set'
 require 'yaml'
 require 'pry'
+require 'pry-remote'
+require 'pry-nav'
 
 $bpm_tolerance = 0.1
 $camelot_wheel = {
@@ -40,7 +42,7 @@ class SongNode
   end
 
   def to_s
-    "#{@title} => #{@neighbors.map {|n| n[:title]}.join('; ')}"
+    "#{@title} => #{@neighbors.map(&:title).join('; ')}"
   end
 end
 
@@ -84,27 +86,28 @@ class DjSetlist
     @songs.map do |song|
       song_node = SongNode.new(song)
       other_songs = @songs.reject {|s| song == s}
-      song_node.neighbors = compatible_songs(song, other_songs).map {|cs| SongNode.new(cs)}
+      song_node.neighbors = compatible_songs(song, other_songs)
       song_node
     end
   end
 
-  def find_longest_chain_from(song_node, used_songs)
-    if used_songs.include? song_node.song
+  def find_longest_chain_from(song, used_songs)
+    if used_songs.include? song
       return []
     end
+    song_node = @song_graph.filter {|n| n.song == song}.at 0
     if song_node.neighbors.empty?
-      return [song_node.song]
+      return [song]
     end
     song_chains = song_node.neighbors.map do |next_song|
-      [song_node.song] + find_longest_chain_from(next_song, used_songs + [song_node.song])
+      [song] + find_longest_chain_from(next_song, used_songs + [song])
     end
     song_chains.max_by(&:length)
   end
 
   def find_longest_chain
-    song_chains = @song_graph.map do |song_node|
-      find_longest_chain_from(song_node, [])
+    song_chains = @songs.map do |song|
+      find_longest_chain_from(song, [])
     end
     song_chains.max_by(&:length)
   end
