@@ -146,7 +146,7 @@
 - :title: Like That
   :artist: Doja Cat, Gucci Mane
   :bpm: 106
-  :key: F#m
+  :key: :F#m
 
 - :title: Deep End Freestyle
   :artist: Sleepy Hallow, Foushee
@@ -271,7 +271,7 @@
 - :title: Till We Die
   :artist: Kayzo, Sullivan King
   :bpm: 150
-  :key: G
+  :key: :G
 
 - :title: Kneel Before Me
   :artist: Slander, CRANKDAT
