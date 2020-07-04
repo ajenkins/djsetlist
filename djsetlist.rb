@@ -38,7 +38,7 @@ class DjSetlist
   end
 
   def percentage_difference(a, b)
-    (a - b).abs / ((a + b) / 2)
+    (a.to_f - b.to_f).abs / ((a + b) / 2.0)
   end
 
   def similar_bpm(s1, s2)
@@ -83,7 +83,7 @@ class DjSetlist
   end
 end
 
-# load './djsetlist.rb'
-# dj = DjSetlist.new('party_bangers.yml')
-# songs = dj.songs
-# dj.find_longest_chain_from(songs[0], songs.drop(1))
+dj = DjSetlist.new('plasma20_unsorted.yml')
+songs = dj.songs
+longest = dj.find_longest_chain()
+File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
