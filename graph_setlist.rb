@@ -32,19 +32,9 @@ $camelot_wheel = {
   "E": Set.new([:A, :"C#m", :B])
 }
 
-# class SongNode
-#   attr_accessor :song, :title, :neighbors
-
-#   def initialize(song)
-#     @song = song
-#     @title = song[:title]
-#     @neighbors = []
-#   end
-
-#   def to_s
-#     "#{@title} => #{@neighbors.map(&:title).join('; ')}"
-#   end
-# end
+# Used for early termination of recursive algorithm
+$num_chains = 0
+$max_chains = 100
 
 class DjSetlist
   attr_accessor :songs, :song_graph
@@ -99,7 +89,11 @@ class DjSetlist
   end
 
   def find_longest_chain_from(song, used_songs)
+    if $num_chains >= $max_chains
+      return []
+    end
     if used_songs.include? song
+      $num_chains += 1
       return []
     end
     song_neighbors = @song_graph[song]
@@ -122,4 +116,4 @@ end
 
 dj = DjSetlist.new('plasma20_trimmed.yml')
 longest = dj.find_longest_chain()
-File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
+File.open("plasma20_sorted_#{$max_chains}.yml", 'w') {|f| f.write(longest.to_yaml) }
