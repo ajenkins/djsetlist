@@ -32,19 +32,19 @@ $camelot_wheel = {
   "E": Set.new([:A, :"C#m", :B])
 }
 
-class SongNode
-  attr_accessor :song, :title, :neighbors
+# class SongNode
+#   attr_accessor :song, :title, :neighbors
 
-  def initialize(song)
-    @song = song
-    @title = song[:title]
-    @neighbors = []
-  end
+#   def initialize(song)
+#     @song = song
+#     @title = song[:title]
+#     @neighbors = []
+#   end
 
-  def to_s
-    "#{@title} => #{@neighbors.map(&:title).join('; ')}"
-  end
-end
+#   def to_s
+#     "#{@title} => #{@neighbors.map(&:title).join('; ')}"
+#   end
+# end
 
 class DjSetlist
   attr_accessor :songs, :song_graph
@@ -52,6 +52,13 @@ class DjSetlist
   def initialize(file)
     @songs = YAML.load(File.read(file))
     @song_graph = create_graph()
+  end
+
+  def puts_song_graph
+    @song_graph.each do |song, neighbors|
+      puts song[:title]
+      puts "  => #{neighbors.map {|n| n[:title]}.join('; ')}"
+    end
   end
 
   def percentage_difference(a, b)
@@ -83,23 +90,23 @@ class DjSetlist
   end
 
   def create_graph
-    @songs.map do |song|
-      song_node = SongNode.new(song)
+    song_graph = {}
+    @songs.each do |song|
       other_songs = @songs.reject {|s| song == s}
-      song_node.neighbors = compatible_songs(song, other_songs)
-      song_node
+      song_graph[song] = compatible_songs(song, other_songs)
     end
+    song_graph
   end
 
   def find_longest_chain_from(song, used_songs)
     if used_songs.include? song
       return []
     end
-    song_node = @song_graph.filter {|n| n.song == song}.at 0
-    if song_node.neighbors.empty?
+    song_neighbors = @song_graph[song]
+    if song_neighbors.empty?
       return [song]
     end
-    song_chains = song_node.neighbors.map do |next_song|
+    song_chains = song_neighbors.map do |next_song|
       [song] + find_longest_chain_from(next_song, used_songs + [song])
     end
     song_chains.max_by(&:length)
@@ -117,5 +124,5 @@ dj = DjSetlist.new('plasma20_unsorted.yml')
 # songs = dj.songs
 # song_graph = dj.song_graph
 # puts(song_graph)
-longest = dj.find_longest_chain()
-File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
+# longest = dj.find_longest_chain()
+# File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
