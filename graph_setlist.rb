@@ -34,7 +34,9 @@ $camelot_wheel = {
 
 # Used for early termination of recursive algorithm
 $num_chains = 0
-$max_chains = 100
+$max_chains = 1000000
+$shuffle_seed = 1
+$rng = Random.new($shuffle_seed)
 
 class DjSetlist
   attr_accessor :songs, :song_graph
@@ -97,6 +99,7 @@ class DjSetlist
       return []
     end
     song_neighbors = @song_graph[song]
+    song_neighbors.shuffle!(random: $rng)
     if song_neighbors.empty?
       return [song]
     end
@@ -112,8 +115,23 @@ class DjSetlist
     end
     song_chains.max_by(&:length)
   end
+
+  def random_longest_chain(trials)
+    longest_chain = []
+    trials.times do |trial|
+      puts("Trial #{trial}")
+      $num_chains = 0
+      @songs.shuffle!(random: $rng)
+      @song_graph = create_graph()
+      chain = find_longest_chain()
+      longest_chain = chain if chain.length > longest_chain.length
+      puts("Longest chain: #{longest_chain.length}")
+    end
+    longest_chain
+  end
 end
 
 dj = DjSetlist.new('plasma20_trimmed.yml')
-longest = dj.find_longest_chain()
-File.open("plasma20_sorted_#{$max_chains}.yml", 'w') {|f| f.write(longest.to_yaml) }
+trials = 50
+longest = dj.random_longest_chain(trials)
+File.open("plasma20_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
