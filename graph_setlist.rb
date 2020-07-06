@@ -35,7 +35,7 @@ $camelot_wheel = {
 # Used for early termination of recursive algorithm
 $num_chains = 0
 $max_chains = 1000000
-$shuffle_seed = 1
+$shuffle_seed = 2
 $rng = Random.new($shuffle_seed)
 
 class DjSetlist
@@ -131,7 +131,7 @@ class DjSetlist
   end
 end
 
-dj = DjSetlist.new('plasma20_trimmed.yml')
+dj = DjSetlist.new('plasma20_unsorted.yml')
 trials = 50
 longest = dj.random_longest_chain(trials)
-File.open("plasma20_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+File.open("plasma20u_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
