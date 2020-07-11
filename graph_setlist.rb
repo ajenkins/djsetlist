@@ -1,8 +1,5 @@
 require 'set'
 require 'yaml'
-require 'pry'
-require 'pry-remote'
-require 'pry-nav'
 
 $bpm_tolerance = 0.1
 $camelot_wheel = {
@@ -131,7 +128,7 @@ class DjSetlist
   end
 end
 
-dj = DjSetlist.new('plasma20_unsorted.yml')
-trials = 50
-longest = dj.random_longest_chain(trials)
-File.open("plasma20u_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+# dj = DjSetlist.new('input/plasma20_unsorted.yml')
+# trials = 50
+# longest = dj.random_longest_chain(trials)
+# File.open("output/plasma20u_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
