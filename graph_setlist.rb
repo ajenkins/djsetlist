@@ -54,8 +54,20 @@ class DjSetlist
     (a.to_f - b.to_f).abs / ((a + b) / 2.0)
   end
 
-  def similar_bpm(s1, s2)
-    percentage_difference(s1[:bpm], s2[:bpm]) <= $bpm_tolerance
+  # If doubling is true, also check if the bpm is similar
+  # when the lower of the two bpms is doubled
+  def similar_bpm(s1, s2, doubling=true)
+    with_original = percentage_difference(s1[:bpm], s2[:bpm]) <= $bpm_tolerance
+    return true if with_original
+    if doubling
+      if s1[:bpm] < s2[:bpm]
+        with_doubled = percentage_difference(2 * s1[:bpm], s2[:bpm]) <= $bpm_tolerance
+      else
+        with_doubled = percentage_difference(s1[:bpm], 2 * s2[:bpm]) <= $bpm_tolerance
+      end
+      return with_original or with_doubled
+    end
+    false
   end
 
   def same_key(s1, s2)
@@ -128,7 +140,7 @@ class DjSetlist
   end
 end
 
-# dj = DjSetlist.new('input/plasma20_unsorted.yml')
-# trials = 50
-# longest = dj.random_longest_chain(trials)
-# File.open("output/plasma20u_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+dj = DjSetlist.new('input/plasma20_unsorted.yml')
+trials = 50
+longest = dj.random_longest_chain(trials)
+File.open("output/plasma20d_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
