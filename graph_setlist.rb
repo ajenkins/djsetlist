@@ -65,7 +65,7 @@ class DjSetlist
       else
         with_doubled = percentage_difference(s1[:bpm], 2 * s2[:bpm]) <= $bpm_tolerance
       end
-      return with_original or with_doubled
+      return with_original || with_doubled
     end
     false
   end
