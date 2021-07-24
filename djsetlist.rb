@@ -83,7 +83,7 @@ class DjSetlist
   end
 end
 
-dj = DjSetlist.new('plasma20_unsorted.yml')
+dj = DjSetlist.new('input/hull2021hype_full.yml')
 songs = dj.songs
 longest = dj.find_longest_chain()
-File.open('plasma20_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
+File.open('output/hull2021hype_sorted.yml', 'w') {|f| f.write(longest.to_yaml) }
