@@ -46,11 +46,11 @@ class DjSetlist
   end
 
   def same_key(s1, s2)
-    s1[:key] == s2[:key]
+    s1[:key].to_sym == s2[:key].to_sym
   end
 
   def adjacent_key(s1, s2)
-    $camelot_wheel[s1[:key]].include? s2[:key]
+    $camelot_wheel[s1[:key].to_sym].include? s2[:key].to_sym
   end
 
   def compatible_key(s1, s2)
