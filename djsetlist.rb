@@ -1,3 +1,8 @@
+# DO NOT USE THIS SCRIPT
+# Use graph_setlist.rb instead
+# This script does not implement early termination
+# and will not terminate for any realistically sized
+# playlist.
 require 'set'
 require 'yaml'
 require 'pry'
