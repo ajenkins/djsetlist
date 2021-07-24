@@ -1,0 +1,229 @@
+---
+- :title: Dum Dee Dum
+  :artist: Keys N Krates
+  :bpm: 80
+  :key: :G
+- :title: Kneel Before Me
+  :artist: Slander, CRANKDAT
+  :bpm: 150
+  :key: :Em
+- :title: Why is Everything Chrome?
+  :artist: King Critical
+  :bpm: 70
+  :key: :Am
+- :title: Then Leave
+  :artist: BeatKing, Queendome Come
+  :bpm: 70
+  :key: :Dm
+- :title: Testament
+  :artist: JayKode
+  :bpm: 75
+  :key: :Am
+- :title: Flesh
+  :artist: Ghostemane
+  :bpm: 71
+  :key: :C
+- :title: BLACKOUT
+  :artist: Lil Kapow
+  :bpm: 75
+  :key: :C
+- :title: Till We Die
+  :artist: Kayzo, Sullivan King
+  :bpm: 150
+  :key: :G
+- :title: Boss
+  :artist: Hott Headzz
+  :bpm: 75
+  :key: :D
+- :title: Lottery (Renegade)
+  :artist: K Camp
+  :bpm: 75
+  :key: :Bm
+- :title: Mo Bamba
+  :artist: Sheck Wes
+  :bpm: 73
+  :key: :Em
+- :title: In The Party
+  :artist: Flo Milli
+  :bpm: 67
+  :key: :Am
+- :title: Cartier
+  :artist: Dopebwoy, Chivv, 3robi
+  :bpm: 127
+  :key: :Am
+- :title: Genesis
+  :artist: Justice
+  :bpm: 117
+  :key: Dm
+- :title: White Mercedes (EDX Remix)
+  :artist: Charli XCX
+  :bpm: 124
+  :key: :F
+- :title: Money
+  :artist: Cardi B
+  :bpm: 65
+  :key: :Bb
+- :title: Hood Baby
+  :artist: KBFR
+  :bpm: 126
+  :key: Gm
+- :title: Titanium
+  :artist: David Guetta, Sia
+  :bpm: 126
+  :key: :Cm
+- :title: Too Good
+  :artist: Breathe Carolina
+  :bpm: 122
+  :key: :Eb
+- :title: The Game
+  :artist: Jauz
+  :bpm: 125
+  :key: :Ab
+- :title: Run Away With Me
+  :artist: Carly Rae Jepsen
+  :bpm: 119
+  :key: Db
+- :title: Ghosts 'n' Stuff
+  :artist: Deadmau5
+  :bpm: 128
+  :key: :Bbm
+- :title: Lovefool
+  :artist: twocolors
+  :bpm: 123
+  :key: :Ebm
+- :title: Delirious (Boneless)
+  :artist: Steve Aoki, Kid Ink
+  :bpm: 128
+  :key: G#m
+- :title: Stay
+  :artist: Yves V, Matthew Hill, Betsy Blue
+  :bpm: 125
+  :key: B
+- :title: Splash
+  :artist: Championxiii
+  :bpm: 69
+  :key: :E
+- :title: All This Time
+  :artist: Deorro
+  :bpm: 130
+  :key: :A
+- :title: Wolves
+  :artist: Selena Gomez, Marshmello
+  :bpm: 125
+  :key: D
+- :title: And to Those I Love
+  :artist: "$uicideboy$"
+  :bpm: 114
+  :key: :D
+- :title: Hide & Seek
+  :artist: Felon
+  :bpm: 124
+  :key: :A
+- :title: Hotel Room Service
+  :artist: Pitbull
+  :bpm: 126
+  :key: :F#m
+- :title: Mama (Tiesto's Big Room Remix)
+  :artist: Clean Bandit, Ellie Goulding
+  :bpm: 126
+  :key: :C#m
+- :title: Party Girl
+  :artist: StaySolidRocky
+  :bpm: 65
+  :key: :F#m
+- :title: REDLIGHT
+  :artist: NGHTMARE, A$AP Ferg
+  :bpm: 70
+  :key: :C#m
+- :title: Winnebago (Dropgun Remix)
+  :artist: Gryffin, Quinn XCII, Daniel Wilson
+  :bpm: 128
+  :key: :G#m
+- :title: Play Hard
+  :artist: David Guetta
+  :bpm: 130
+  :key: B
+- :title: Double Trouble
+  :artist: Tiesto
+  :bpm: 125
+  :key: Gb
+- :title: I Love It
+  :artist: Icona Pop, Charli XCX
+  :bpm: 126
+  :key: :Db
+- :title: Kuaga (Lost Time)
+  :artist: Pierce Fulton
+  :bpm: 128
+  :key: Db
+- :title: WIPEITDOWN
+  :artist: BMW KENNY
+  :bpm: 140
+  :key: Bbm
+- :title: HUMBLE.
+  :artist: Kendrick Lamar
+  :bpm: 150
+  :key: :Bbm
+- :title: Rescue
+  :artist: Zeds Dead
+  :bpm: 145
+  :key: :Fm
+- :title: Everytime We Touch
+  :artist: Cascada
+  :bpm: 142
+  :key: Ab
+- :title: BedRock
+  :artist: Young Money, Lloyd
+  :bpm: 148
+  :key: Eb
+- :title: TOES
+  :artist: DaBaby, Lil Baby
+  :bpm: 80
+  :key: :Cm
+- :title: Told Ya
+  :artist: Whipped Cream, Lil Xan
+  :bpm: 85
+  :key: :Eb
+- :title: Jumpin', Jumpin'
+  :artist: Destiny's Child
+  :bpm: 89
+  :key: :Ab
+- :title: Do It Again
+  :artist: Pia Mia, Chris Brown, Tyga
+  :bpm: 96
+  :key: :Fm
+- :title: GOOBA
+  :artist: 6ix9ine
+  :bpm: 89
+  :key: :Bbm
+- :title: Address It
+  :artist: LPB Poody
+  :bpm: 94
+  :key: :Bbm
+- :title: Simon Says
+  :artist: Pharoahe Monch
+  :bpm: 94
+  :key: :Fm
+- :title: Closer
+  :artist: The Chainsmokers, Halsey
+  :bpm: 95
+  :key: Ab
+- :title: XXXTC
+  :artist: Brooke Candy, Charli XCX
+  :bpm: 95
+  :key: :Eb
+- :title: Kream
+  :artist: Iggy Azalea, Tyga
+  :bpm: 87
+  :key: :Bb
+- :title: Gasolina
+  :artist: Daddy Yankee, Pitbull, Lil Jon
+  :bpm: 96
+  :key: :F
+- :title: Happier
+  :artist: Marshmello, Bastille
+  :bpm: 100
+  :key: F
+- :title: We Are Young
+  :artist: fun., Janelle Monae
+  :bpm: 92
+  :key: F
