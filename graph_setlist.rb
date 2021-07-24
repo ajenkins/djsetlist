@@ -28,6 +28,32 @@ $camelot_wheel = {
   "A": Set.new([:D, :"F#m", :E]),
   "E": Set.new([:A, :"C#m", :B])
 }
+$camelot_wheel_colors = {
+  "G#m": "#56F1DA",
+  "Ebm": "#7DF2AA",
+  "Bbm": "#AEF589",
+  "Fm": "#E8DAA1",
+  "Cm": "#FEBFA7",
+  "Gm": "#FDAFB7",
+  "Dm": "#FDAACC",
+  "Am": "#F2ABE4",
+  "Em": "#DDB4FD",
+  "Bm": "#BECDFD",
+  "F#m": "#8EE4F9",
+  "C#m": "#55F0F0",
+  "B": "#01EDCA",
+  "Gb": "#3CEE81",
+  "Db": "#86F24F",
+  "Ab": "#DFCA73",
+  "Eb": "#FFA07C",
+  "Bb": "#FF8894",
+  "F": "#FF81B4",
+  "C": "#EE82D9",
+  "G": "#CE8FFF",
+  "D": "#9FB6FF",
+  "A": "#56D9F9",
+  "E": "#00EBEB"
+}
 
 # Used for early termination of recursive algorithm
 $num_chains = 0
@@ -48,6 +74,23 @@ class DjSetlist
       puts song[:title]
       puts "  => #{neighbors.map {|n| n[:title]}.join('; ')}"
     end
+  end
+
+  def format_as_graphviz
+    def format_song_attrs(song)
+      fillcolor = $camelot_wheel_colors[song[:key].to_sym].dump
+      width = song[:bpm] * 0.02
+      "  #{song[:title].dump} [fillcolor=#{fillcolor},width=#{width}];"
+    end
+
+    def format_song_edges(song, neighbors)
+      "  #{song[:title].dump} -- { #{neighbors.map {|n| n[:title].dump}.join(' ')} };"
+    end
+
+    nodes = @songs.map {|song| format_song_attrs(song)}
+    edges = @song_graph.map {|song, neighbors| format_song_edges(song, neighbors)}
+    node_styles = "  node [style=filled,shape=circle,fixedsize=true]"
+    "strict graph {\n#{node_styles}\n#{nodes.join("\n")}\n#{edges.join("\n")}\n}"
   end
 
   def percentage_difference(a, b)
@@ -136,7 +179,12 @@ class DjSetlist
   end
 end
 
+# For automatically generating the longest playlist
+# dj = DjSetlist.new('input/hull2021hype_full.yml')
+# trials = 50
+# longest = dj.random_longest_chain(trials)
+# File.open("output/hull2021_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+
+# For visualizing the songs in a graph
 dj = DjSetlist.new('input/hull2021hype_full.yml')
-trials = 50
-longest = dj.random_longest_chain(trials)
-File.open("output/hull2021_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+File.open("output/hull2021hype_full.dot", 'w') {|f| f.write(dj.format_as_graphviz)}
