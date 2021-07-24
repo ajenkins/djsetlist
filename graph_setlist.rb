@@ -71,15 +71,11 @@ class DjSetlist
   end
 
   def same_key(s1, s2)
-    s1[:key] == s2[:key]
+    s1[:key].to_sym == s2[:key].to_sym
   end
 
   def adjacent_key(s1, s2)
-    begin
-      $camelot_wheel[s1[:key]].include? s2[:key]
-    rescue
-      binding.pry
-    end
+    $camelot_wheel[s1[:key].to_sym].include? s2[:key].to_sym
   end
 
   def compatible_key(s1, s2)
@@ -140,7 +136,7 @@ class DjSetlist
   end
 end
 
-dj = DjSetlist.new('input/plasma20_unsorted.yml')
+dj = DjSetlist.new('input/hull2021hype_full.yml')
 trials = 50
 longest = dj.random_longest_chain(trials)
-File.open("output/plasma20d_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+File.open("output/hull2021_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
