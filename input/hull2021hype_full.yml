@@ -6,7 +6,7 @@
 - :title: ROCKSTAR
   :artist: DaBaby, Roddy Ricch
   :bpm: 90
-  :key: :B
+  :key: :G#m
 
 - :title: Party Girl
   :artist: StaySolidRocky
@@ -16,7 +16,7 @@
 - :title: Splash
   :artist: Championxiii
   :bpm: 69
-  :key: :E
+  :key: :Em
 
 - :title: Roses (Imanbek Remix)
   :artist: SAINt JHN
@@ -26,22 +26,22 @@
 - :title: Why is Everything Chrome?
   :artist: King Critical
   :bpm: 70
-  :key: :Am
+  :key: :Cm
 
 - :title: BLACKOUT
   :artist: Lil Kapow
   :bpm: 75
-  :key: :C
+  :key: :Cm
 
 - :title: Address It
   :artist: LPB Poody
   :bpm: 94
-  :key: :Bbm
+  :key: :Gm
 
 - :title: Gas Pedal
   :artist: Sage the Gemini
   :bpm: 97
-  :key: :Gb
+  :key: :Fm
 
 - :title: Lottery (Renegade)
   :artist: K Camp
@@ -66,12 +66,12 @@
 - :title: Flesh
   :artist: Ghostemane
   :bpm: 71
-  :key: :C
+  :key: :Fm
 
 - :title: Do It Again
   :artist: Pia Mia, Chris Brown, Tyga
   :bpm: 96
-  :key: :Fm
+  :key: :Ab
 
 - :title: Kream
   :artist: Iggy Azalea, Tyga
@@ -81,7 +81,7 @@
 - :title: SICKO MODE
   :artist: Travis Scott
   :bpm: 77
-  :key: :Gm
+  :key: :F#m
 
 - :title: They Call Me Tiago
   :artist: Tiagz
@@ -91,17 +91,17 @@
 - :title: GOOBA
   :artist: 6ix9ine
   :bpm: 89
-  :key: :Bbm
+  :key: :Ebm
 
 - :title: Then Leave
   :artist: BeatKing, Queendome Come
   :bpm: 70
-  :key: :Dm
+  :key: :Gm
 
 - :title: Boss
   :artist: Hott Headzz
   :bpm: 75
-  :key: :D
+  :key: :Dm
 
 - :title: Hotel Room Service
   :artist: Pitbull
@@ -141,12 +141,12 @@
 - :title: Money
   :artist: Cardi B
   :bpm: 65
-  :key: :Bb
+  :key: :Gm
 
 - :title: Jumpin', Jumpin'
   :artist: Destiny's Child
   :bpm: 89
-  :key: :Ab
+  :key: :G#m
 
 - :title: Ghosts 'n' Stuff
   :artist: Deadmau5
@@ -165,13 +165,13 @@
 
 - :title: Dum Dee Dum
   :artist: Keys N Krates
-  :bpm: 80
-  :key: :G
+  :bpm: 160
+  :key: :Em
 
 - :title: Till We Die
   :artist: Kayzo, Sullivan King
   :bpm: 150
-  :key: :G
+  :key: :Gm
 
 - :title: Kneel Before Me
   :artist: Slander, CRANKDAT
@@ -181,12 +181,12 @@
 - :title: Told Ya
   :artist: Whipped Cream, Lil Xan
   :bpm: 85
-  :key: :Eb
+  :key: :G#m
 
 - :title: XXXTC
   :artist: Brooke Candy, Charli XCX
   :bpm: 95
-  :key: :Eb
+  :key: :Cm
 
 - :title: The Game
   :artist: Jauz
@@ -195,7 +195,7 @@
 
 - :title: Rescue Me
   :artist: Marshmello
-  :bpm: 74
+  :bpm: 148
   :key: :B
 
 - :title: Testament
@@ -206,12 +206,12 @@
 - :title: I Love It
   :artist: Icona Pop, Charli XCX
   :bpm: 126
-  :key: :Db
+  :key: :Ab
 
 - :title: Gasolina
   :artist: Daddy Yankee, Pitbull, Lil Jon
   :bpm: 96
-  :key: :F
+  :key: :Fm
 
 - :title: And to Those I Love
   :artist: $uicideboy$
@@ -397,13 +397,13 @@
 
 - :title: I Like Him
   :artist: Princess Nokia
-  :bpm: 133
-  :key: :E
+  :bpm: 66
+  :key: :Em
 
 - :title: Yo Perreo Sola
   :artist: Bad Bunny
   :bpm: 97
-  :key: :Bm
+  :key: :Em
 
 - :title: Lalala
   :artist: Y2K, bbno$
@@ -413,27 +413,27 @@
 - :title: Rompelo
   :artist: DJ Pedro Fuentas, Mad Fuentas
   :bpm: 95
-  :key: :Bm
+  :key: :Em
 
 - :title: Walked In
   :artist: Ultradixo
   :bpm: 80
-  :key: :D
+  :key: :Gm
 
 - :title: Tra Tra
   :artist: N-Fasis
   :bpm: 96
-  :key: :F
+  :key: :Fm
 
 - :title: Ice Me Out
   :artist: Kash Doll
   :bpm: 75
-  :key: :C
+  :key: :Cm
 
 - :title: Savage Remix
   :artist: Megan Thee Stallion, Beyonce
   :bpm: 84
-  :key: :Ebm
+  :key: :Bbm
 
 - :title: Vibe (If I Back It Up)
   :artist: Cookiee Kawaii
@@ -453,12 +453,12 @@
 - :title: Geek'd
   :artist: Bhad Bhabie, Lil Baby
   :bpm: 82
-  :key: :Am
+  :key: :Dm
 
 - :title: CHOOSIN SZN
   :artist: KINGMOSTWANTED
   :bpm: 105
-  :key: :Am
+  :key: :C#m
 
 - :title: WHATS POPPIN
   :artist: Jack Harlow
@@ -483,7 +483,7 @@
 - :title: In My Mind
   :artist: Dynoro, Gigi D'Agostino
   :bpm: 126
-  :key: :Bbm
+  :key: :Ebm
 
 - :title: Like I Do
   :artist: David Guetta, Martin Garrix
@@ -493,17 +493,17 @@
 - :title: Blood // Water
   :artist: Grandson
   :bpm: 154
-  :key: :Db
+  :key: :G#m
 
 - :title: Leave You in the Ground
   :artist: Zeds Dead, Omar LinX
   :bpm: 82
-  :key: :Ebm
+  :key: :G#m
 
 - :title: Fancy
   :artist: Iggy Azalea, Charli XCX
   :bpm: 95
-  :key: :Gm
+  :key: :Cm
 
 - :title: Boss Bitch
   :artist: Doja Cat
