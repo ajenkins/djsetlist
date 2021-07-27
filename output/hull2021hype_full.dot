@@ -75,10 +75,10 @@ strict graph {
   "Kuaga (Lost Time)" [fillcolor="#86F24F",width=2.56];
   "Something Just Like This" [fillcolor="#9FB6FF",width=2.06];
   "The General" [fillcolor="#FF8894",width=1.9000000000000001];
-  "Lose Yourself" [fillcolor="#FDAACC",width=1.72];
   "Partition" [fillcolor="#DDB4FD",width=1.86];
   "UCLA" [fillcolor="#86F24F",width=2.8000000000000003];
   "Astronomia" [fillcolor="#FDAFB7",width=2.52];
+  "Going Bad" [fillcolor="#BECDFD",width=1.72];
   "Bella ciao (Hugel Remix)" -- { "In The Party" "Cartier" };
   "ROCKSTAR" -- { "Gas Pedal" "Jumpin', Jumpin'" "One Thing Right" };
   "Party Girl" -- { "Hotel Room Service" "Hide & Seek" "REDLIGHT" "Mama (Tiesto's Big Room Remix)" "All This Time" };
@@ -102,7 +102,7 @@ strict graph {
   "Boss" -- { "Lottery (Renegade)" "Dum Dee Dum" "Till We Die" };
   "Hotel Room Service" -- { "Party Girl" "Hide & Seek" "Mama (Tiesto's Big Room Remix)" "All This Time" };
   "In The Party" -- { "Bella ciao (Hugel Remix)" "Why is Everything Chrome?" "Rockstar Shit" "Flesh" "Then Leave" "Mo Bamba" "Cartier" };
-  "Where'd U Go" -- {  };
+  "Where'd U Go" -- { "Going Bad" };
   "Hide & Seek" -- { "Party Girl" "Hotel Room Service" "And to Those I Love" "All This Time" "Wolves" };
   "Winnebago (Dropgun Remix)" -- { "REDLIGHT" "Mama (Tiesto's Big Room Remix)" "Lovefool" "Stay" "Delirious (Boneless)" "Play Hard" };
   "HUMBLE." -- { "Rescue" "Batman" "WIPEITDOWN" "UCLA" };
@@ -142,7 +142,7 @@ strict graph {
   "Hood Baby" -- { "Money" "Titanium" "Genesis" "Astronomia" };
   "WIPEITDOWN" -- { "HUMBLE." "Ghosts 'n' Stuff" "Rescue" "Kuaga (Lost Time)" "UCLA" };
   "Wolves" -- { "Hide & Seek" "And to Those I Love" "All This Time" };
-  "We Are Young" -- { "Kream" "Gasolina" "Happier" "The General" "Lose Yourself" };
+  "We Are Young" -- { "Kream" "Gasolina" "Happier" "The General" };
   "Jumpin', Jumpin'" -- { "ROCKSTAR" };
   "Happier" -- { "Gasolina" "We Are Young" "The General" };
   "One Thing Right" -- { "ROCKSTAR" };
@@ -154,8 +154,8 @@ strict graph {
   "Kuaga (Lost Time)" -- { "Ghosts 'n' Stuff" "The Game" "I Love It" "Run Away With Me" "Double Trouble" "WIPEITDOWN" "UCLA" };
   "Something Just Like This" -- { "Just Miss Love" };
   "The General" -- { "Kream" "XXXTC" "Gasolina" "We Are Young" "Happier" };
-  "Lose Yourself" -- { "We Are Young" };
-  "Partition" -- { "Co\u00F1o" "They Call Me Tiago" "Turn Down For What" };
+  "Partition" -- { "Co\u00F1o" "They Call Me Tiago" "Turn Down For What" "Going Bad" };
   "UCLA" -- { "HUMBLE." "Ghosts 'n' Stuff" "WIPEITDOWN" "Everytime We Touch" "Kuaga (Lost Time)" };
   "Astronomia" -- { "Money" "Titanium" "Genesis" "Hood Baby" };
+  "Going Bad" -- { "Where'd U Go" "Partition" };
 }

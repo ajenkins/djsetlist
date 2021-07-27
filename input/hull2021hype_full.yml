@@ -373,11 +373,6 @@
   :bpm: 95
   :key: Bb
 
-- :title: Lose Yourself
-  :artist: Eminem
-  :bpm: 86
-  :key: Dm
-
 - :title: Partition
   :artist: Beyonce
   :bpm: 93
@@ -392,3 +387,8 @@
   :artist: Vicetone, Tony Igy
   :bpm: 126
   :key: Gm
+
+- :title: Going Bad
+  :artist: Meek Mill, Drake
+  :bpm: 86
+  :key: Bm
