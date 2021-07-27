@@ -74,7 +74,7 @@ strict graph {
   "Play Hard" [fillcolor="#01EDCA",width=2.6];
   "Kuaga (Lost Time)" [fillcolor="#86F24F",width=2.56];
   "Something Just Like This" [fillcolor="#9FB6FF",width=2.06];
-  "The General" [fillcolor="#FF8894",width=1.9000000000000001];
+  "The General" [fillcolor="#FF81B4",width=1.9000000000000001];
   "Partition" [fillcolor="#DDB4FD",width=1.86];
   "UCLA" [fillcolor="#86F24F",width=2.8000000000000003];
   "Astronomia" [fillcolor="#FDAFB7",width=2.52];
@@ -172,7 +172,7 @@ strict graph {
   "Till We Die" -- { "BLACKOUT" "Rockstar Shit" "Flesh" "Boss" "Mo Bamba" "Dum Dee Dum" "Kneel Before Me" "Walked In" "Ice Me Out" "WHATS POPPIN" "Alone" "Origin" "Open Water" };
   "Kneel Before Me" -- { "Why is Everything Chrome?" "Lottery (Renegade)" "Rockstar Shit" "Mo Bamba" "Dum Dee Dum" "Till We Die" "Testament" "Geek'd" "WHATS POPPIN" "Origin" "Nightlight (Kaivon Remix)" "Shatter Me" "Make Me Cry (Marshmello Remix)" };
   "Told Ya" -- { "TOES" "Kream" "Jumpin', Jumpin'" };
-  "XXXTC" -- { "Kream" "Jumpin', Jumpin'" "Closer" "The General" "Here With Me" };
+  "XXXTC" -- { "Kream" "Jumpin', Jumpin'" "Closer" "Here With Me" };
   "The Game" -- { "Roses (Imanbek Remix)" "I Love It" "Anything" "Too Good" "Run Away With Me" "Kuaga (Lost Time)" "Heaven" "Nevada" };
   "Rescue Me" -- { "Splash" "Breathe 2.0" "Whisper" "Greenlights" };
   "Testament" -- { "Why is Everything Chrome?" "BLACKOUT" "Rockstar Shit" "Flesh" "Then Leave" "Mo Bamba" "Kneel Before Me" "Ice Me Out" "Geek'd" "WHATS POPPIN" "Origin" "Open Water" "Shatter Me" "Make Me Cry (Marshmello Remix)" };
@@ -209,7 +209,7 @@ strict graph {
   "Play Hard" -- { "Splash" "Winnebago (Dropgun Remix)" "Double Trouble" "Stay" "Delirious (Boneless)" "I Like Him" "Better When You're Gone" "City of Dreams" "Strobe" "The Long Way Home" "Breathe 2.0" };
   "Kuaga (Lost Time)" -- { "Ghosts 'n' Stuff" "The Game" "I Love It" "Run Away With Me" "Double Trouble" "WIPEITDOWN" "UCLA" "In My Mind" "Boss Bitch" };
   "Something Just Like This" -- { "Just Miss Love" "Yo Perreo Sola" "Rompelo" "Changa (Blanke Remix)" };
-  "The General" -- { "Kream" "XXXTC" "Gasolina" "We Are Young" "Happier" "Tra Tra" "Fancy" "Here With Me" };
+  "The General" -- { "Kream" "Gasolina" "We Are Young" "Happier" "Tra Tra" };
   "Partition" -- { "Co\u00F1o" "They Call Me Tiago" "Turn Down For What" "Going Bad" "Yo Perreo Sola" "Rompelo" "Stunnin'" };
   "UCLA" -- { "HUMBLE." "Ghosts 'n' Stuff" "WIPEITDOWN" "Everytime We Touch" "Kuaga (Lost Time)" "Blood // Water" "Light" "Whisper" };
   "Astronomia" -- { "Money" "Titanium" "Genesis" "Hood Baby" "Lalala" "Like I Do" "The Fever" "Let Me Love You (Marshmello Remix)" "Up & Down" };
@@ -235,13 +235,13 @@ strict graph {
   "Like I Do" -- { "Roses (Imanbek Remix)" "Anything" "Titanium" "Too Good" "Hood Baby" "Astronomia" "Heaven" "The Fever" "Nevada" "Let Me Love You (Marshmello Remix)" "Up & Down" };
   "Blood // Water" -- { "HUMBLE." "Batman" "WIPEITDOWN" "Everytime We Touch" "UCLA" "Light" "Whisper" "Greenlights" };
   "Leave You in the Ground" -- { "GOOBA" "HUMBLE." "Batman" "Jumpin', Jumpin'" "Savage Remix" "Faded" "Whisper" "Greenlights" };
-  "Fancy" -- { "Kream" "The General" };
+  "Fancy" -- { "Kream" };
   "Boss Bitch" -- { "Roses (Imanbek Remix)" "Ghosts 'n' Stuff" "I Love It" "Anything" "Lovefool" "Run Away With Me" "Kuaga (Lost Time)" "In My Mind" };
   "Alone" -- { "Lottery (Renegade)" "Boss" "Till We Die" "All This Time" "Nightlight (Kaivon Remix)" };
   "Light" -- { "Rescue" "Everytime We Touch" "BedRock" "UCLA" "Blood // Water" "Dollars" "Heaven" };
   "Strobe" -- { "Splash" "Winnebago (Dropgun Remix)" "Double Trouble" "Stay" "Delirious (Boneless)" "Play Hard" "I Like Him" "Better When You're Gone" "City of Dreams" "The Long Way Home" "Breathe 2.0" };
   "Dollars" -- { "TOES" "Everytime We Touch" "BedRock" "Light" "Heaven" "Up & Down" };
-  "Here With Me" -- { "XXXTC" "Closer" "The General" };
+  "Here With Me" -- { "XXXTC" "Closer" };
   "Voices" -- { "Then Leave" "Money" "White Mercedes (EDX Remix)" "Genesis" "Lalala" };
   "Heaven" -- { "Money" "The Game" "Titanium" "Everytime We Touch" "BedRock" "Like I Do" "Light" "Dollars" "The Fever" "Up & Down" };
   "Faded" -- { "ROCKSTAR" "Gas Pedal" "Savage Remix" "Leave You in the Ground" };
