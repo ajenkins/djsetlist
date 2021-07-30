@@ -61,6 +61,29 @@ $max_chains = 1000000
 $shuffle_seed = 2
 $rng = Random.new($shuffle_seed)
 
+# Procs
+longest_chain = Proc.new {|songs| songs.max_by(&:length)}
+
+def count_bangers(songs)
+  songs.count {|s| s[:banger]}
+end
+
+# Get longest chain with the most bangers
+most_bangers = Proc.new do |songs|
+  songs.max_by do |chain|
+    [count_bangers(chain), chain.length]
+  end
+end
+
+# Get shortest chain with the most bangers
+most_bangers_short = Proc.new do |songs|
+  songs.max_by do |chain|
+    [count_bangers(chain), -1 * chain.length]
+  end
+end
+
+
+
 class DjSetlist
   attr_accessor :songs, :song_graph
 
@@ -138,7 +161,7 @@ class DjSetlist
     song_graph
   end
 
-  def find_longest_chain_from(song, used_songs)
+  def find_longest_chain_from(song, used_songs, max_func)
     if $num_chains >= $max_chains
       return []
     end
@@ -152,39 +175,40 @@ class DjSetlist
       return [song]
     end
     song_chains = song_neighbors.map do |next_song|
-      [song] + find_longest_chain_from(next_song, used_songs + [song])
+      [song] + find_longest_chain_from(next_song, used_songs + [song], max_func)
     end
-    song_chains.max_by(&:length)
+    max_func.call(song_chains)
   end
 
-  def find_longest_chain
+  def find_longest_chain(max_func)
     song_chains = @songs.map do |song|
-      find_longest_chain_from(song, [])
+      find_longest_chain_from(song, [], max_func)
     end
-    song_chains.max_by(&:length)
+    max_func.call(song_chains)
   end
 
-  def random_longest_chain(trials)
+  def random_longest_chain(trials, max_func)
     longest_chain = []
     trials.times do |trial|
       puts("Trial #{trial}")
       $num_chains = 0
       @songs.shuffle!(random: $rng)
       @song_graph = create_graph()
-      chain = find_longest_chain()
+      chain = find_longest_chain(max_func)
       longest_chain = chain if chain.length > longest_chain.length
-      puts("Longest chain: #{longest_chain.length}")
+      puts("Best # of Bangers: #{count_bangers(longest_chain)}")
+      puts("Best Length: #{longest_chain.length}")
     end
     longest_chain
   end
 end
 
 # For automatically generating the longest playlist
-# dj = DjSetlist.new('input/hull2021hype_full.yml')
-# trials = 50
-# longest = dj.random_longest_chain(trials)
-# File.open("output/hull2021_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
+dj = DjSetlist.new('input/hull2021hype_full.yml')
+trials = 10
+longest = dj.random_longest_chain(trials, most_bangers_short)
+File.open("output/hull2021_trials_#{trials}_random_#{$shuffle_seed}.yml", 'w') {|f| f.write(longest.to_yaml) }
 
 # For visualizing the songs in a graph
-dj = DjSetlist.new('input/hull2021hype_full.yml')
-File.open("output/hull2021hype_full.dot", 'w') {|f| f.write(dj.format_as_graphviz)}
+# dj = DjSetlist.new('input/hull2021hype_full.yml')
+# File.open("output/hull2021hype_full.dot", 'w') {|f| f.write(dj.format_as_graphviz)}
