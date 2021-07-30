@@ -2,396 +2,469 @@
   :artist: El Professor
   :bpm: 126
   :key: :Em
+  :banger: false
 
 - :title: ROCKSTAR
   :artist: DaBaby, Roddy Ricch
   :bpm: 90
   :key: :G#m
+  :banger: true
 
 - :title: Party Girl
   :artist: StaySolidRocky
   :bpm: 65
   :key: :F#m
+  :banger: false
 
 - :title: Splash
   :artist: Championxiii
   :bpm: 69
   :key: :Em
+  :banger: true
 
 - :title: Roses (Imanbek Remix)
   :artist: SAINt JHN
   :bpm: 122
   :key: :Fm
+  :banger: true
 
 - :title: Why is Everything Chrome?
   :artist: King Critical
   :bpm: 70
   :key: :Cm
+  :banger: true
 
 - :title: BLACKOUT
   :artist: Lil Kapow
   :bpm: 75
   :key: :Cm
+  :banger: false
 
 - :title: Address It
   :artist: LPB Poody
   :bpm: 94
   :key: :Gm
+  :banger: false
 
 - :title: Gas Pedal
   :artist: Sage the Gemini
   :bpm: 97
   :key: :Fm
+  :banger: false
 
 - :title: Lottery (Renegade)
   :artist: K Camp
   :bpm: 75
   :key: :Bm
+  :banger: false
 
 - :title: Rockstar Shit
   :artist: BLIND.SEE, BYROZA
   :bpm: 70
   :key: :Em
+  :banger: true
 
 - :title: Coño
   :artist: PURI, Jhorrmountain, Adje
   :bpm: 100
   :key: :Am
+  :banger: true
 
 - :title: TOES
   :artist: DaBaby, Lil Baby
   :bpm: 80
   :key: :Cm
+  :banger: false
 
 - :title: Flesh
   :artist: Ghostemane
   :bpm: 71
   :key: :Fm
+  :banger: true
 
 - :title: Do It Again
   :artist: Pia Mia, Chris Brown, Tyga
   :bpm: 96
   :key: :Ab
+  :banger: false
 
 - :title: Kream
   :artist: Iggy Azalea, Tyga
   :bpm: 87
   :key: :Bb
+  :banger: false
 
 - :title: SICKO MODE
   :artist: Travis Scott
   :bpm: 77
   :key: :F#m
+  :banger: true
 
 - :title: They Call Me Tiago
   :artist: Tiagz
   :bpm: 101
   :key: :Em
+  :banger: false
 
 - :title: GOOBA
   :artist: 6ix9ine
   :bpm: 89
   :key: :Ebm
+  :banger: true
 
 - :title: Then Leave
   :artist: BeatKing, Queendome Come
   :bpm: 70
   :key: :Gm
+  :banger: false
 
 - :title: Boss
   :artist: Hott Headzz
   :bpm: 75
   :key: :Dm
+  :banger: false
 
 - :title: Hotel Room Service
   :artist: Pitbull
   :bpm: 126
   :key: :F#m
+  :banger: true
 
 - :title: In The Party
   :artist: Flo Milli
   :bpm: 67
   :key: :Am
+  :banger: true
 
 - :title: Where'd U Go
   :artist: Illenium
   :bpm: 93
   :key: :D
+  :banger: true
 
 - :title: Hide & Seek
   :artist: Felon
   :bpm: 124
   :key: :A
+  :banger: false
 
 - :title: Winnebago (Dropgun Remix)
   :artist: Gryffin, Quinn XCII, Daniel Wilson
   :bpm: 128
   :key: :G#m
+  :banger: false
 
 - :title: HUMBLE.
   :artist: Kendrick Lamar
   :bpm: 150
   :key: :Bbm
+  :banger: false
 
 - :title: Mo Bamba
   :artist: Sheck Wes
   :bpm: 73
   :key: :Em
+  :banger: true
 
 - :title: Money
   :artist: Cardi B
   :bpm: 65
   :key: :Gm
+  :banger: false
 
 - :title: Jumpin', Jumpin'
   :artist: Destiny's Child
   :bpm: 89
   :key: :G#m
+  :banger: true
 
 - :title: Ghosts 'n' Stuff
   :artist: Deadmau5
   :bpm: 128
   :key: :Bbm
+  :banger: true
 
 - :title: Rescue
   :artist: Zeds Dead
   :bpm: 145
   :key: :Fm
+  :banger: false
 
 - :title: REDLIGHT
   :artist: NGHTMARE, A$AP Ferg
   :bpm: 70
   :key: :C#m
+  :banger: false
 
 - :title: Dum Dee Dum
   :artist: Keys N Krates
   :bpm: 160
   :key: :Em
+  :banger: false
 
 - :title: Till We Die
   :artist: Kayzo, Sullivan King
   :bpm: 150
   :key: :Gm
+  :banger: false
 
 - :title: Kneel Before Me
   :artist: Slander, CRANKDAT
   :bpm: 150
   :key: :Em
+  :banger: false
 
 - :title: Told Ya
   :artist: Whipped Cream, Lil Xan
   :bpm: 85
   :key: :G#m
+  :banger: false
 
 - :title: XXXTC
   :artist: Brooke Candy, Charli XCX
   :bpm: 95
   :key: :Cm
+  :banger: false
 
 - :title: The Game
   :artist: Jauz
   :bpm: 125
   :key: :Ab
+  :banger: false
 
 - :title: Rescue Me
   :artist: Marshmello
   :bpm: 148
   :key: :B
+  :banger: false
 
 - :title: Testament
   :artist: JayKode
   :bpm: 150
   :key: :Am
+  :banger: false
 
 - :title: I Love It
   :artist: Icona Pop, Charli XCX
   :bpm: 126
   :key: :Ab
+  :banger: true
 
 - :title: Gasolina
   :artist: Daddy Yankee, Pitbull, Lil Jon
   :bpm: 96
   :key: :Fm
+  :banger: true
 
 - :title: And to Those I Love
   :artist: $uicideboy$
   :bpm: 114
   :key: :D
+  :banger: true
 
 - :title: Cartier
   :artist: Dopebwoy, Chivv, 3robi
   :bpm: 127
   :key: :Am
+  :banger: false
 
 - :title: Simon Says
   :artist: Pharoahe Monch
   :bpm: 94
   :key: :Fm
+  :banger: false
 
 - :title: Anything
   :artist: Alison Wonderland, Valention Khan
   :bpm: 120
   :key: :Fm
+  :banger: false
 
 - :title: Titanium
   :artist: David Guetta, Sia
   :bpm: 126
   :key: :Cm
+  :banger: true
 
 - :title: Turn Down For What
   :artist: DJ Snake, Lil Jon
   :bpm: 100
   :key: :Em
+  :banger: true
 
 - :title: Mama (Tiesto's Big Room Remix)
   :artist: Clean Bandit, Ellie Goulding
   :bpm: 126
   :key: :C#m
+  :banger: false
 
 - :title: White Mercedes (EDX Remix)
   :artist: Charli XCX
   :bpm: 124
   :key: :F
+  :banger: false
 
 - :title: Too Good
   :artist: Breathe Carolina
   :bpm: 122
   :key: :Eb
+  :banger: false
 
 - :title: Lovefool
   :artist: twocolors
   :bpm: 123
   :key: :Ebm
+  :banger: true
 
 - :title: Just Miss Love
   :artist: Benny Benassi
   :bpm: 105
   :key: :A
+  :banger: true
 
 - :title: All This Time
   :artist: Deorro
   :bpm: 130
   :key: :A
+  :banger: true
 
 - :title: Genesis
   :artist: Justice
   :bpm: 117
   :key: Dm
+  :banger: false
 
 - :title: Run Away With Me
   :artist: Carly Rae Jepsen
   :bpm: 119
   :key: Db
+  :banger: false
 
 - :title: Double Trouble
   :artist: Tiesto
   :bpm: 125
   :key: Gb
+  :banger: false
 
 - :title: Stay
   :artist: Yves V, Matthew Hill, Betsy Blue
   :bpm: 125
   :key: B
+  :banger: false
 
 - :title: Batman
   :artist: LPB Poody
   :bpm: 81
   :key: Bbm
+  :banger: true
 
 - :title: Hood Baby
   :artist: KBFR
   :bpm: 126
   :key: Gm
+  :banger: false
 
 - :title: WIPEITDOWN
   :artist: BMW KENNY
   :bpm: 140
   :key: Bbm
+  :banger: false
 
 - :title: Wolves
   :artist: Selena Gomez, Marshmello
   :bpm: 125
   :key: D
+  :banger: false
 
 - :title: We Are Young
   :artist: fun., Janelle Monae
   :bpm: 92
   :key: F
-
-- :title: Jumpin', Jumpin'
-  :artist: Destiny's Child
-  :bpm: 89
-  :key: G#m
+  :banger: false
 
 - :title: Happier
   :artist: Marshmello, Bastille
   :bpm: 100
   :key: F
+  :banger: false
 
 - :title: One Thing Right
   :artist: Marshmello, Kane Brown
   :bpm: 88
   :key: E
+  :banger: false
 
 - :title: Delirious (Boneless)
   :artist: Steve Aoki, Kid Ink
   :bpm: 128
   :key: G#m
+  :banger: true
 
 - :title: Everytime We Touch
   :artist: Cascada
   :bpm: 142
   :key: Ab
+  :banger: true
 
 - :title: BedRock
   :artist: Young Money, Lloyd
   :bpm: 148
   :key: Eb
+  :banger: true
 
 - :title: Closer
   :artist: The Chainsmokers, Halsey
   :bpm: 95
   :key: Ab
+  :banger: false
 
 - :title: Play Hard
   :artist: David Guetta
   :bpm: 130
   :key: B
+  :banger: true
 
 - :title: Kuaga (Lost Time)
   :artist: Pierce Fulton
   :bpm: 128
   :key: Db
+  :banger: false
 
 - :title: Something Just Like This
   :artist: The Chainsmokers, Coldplay
   :bpm: 103
   :key: D
+  :banger: false
 
 - :title: The General
   :artist: Dispatch
   :bpm: 95
   :key: F
+  :banger: false
 
 - :title: Partition
   :artist: Beyonce
   :bpm: 93
   :key: Em
+  :banger: false
 
 - :title: UCLA
   :artist: RL Grime, 24hrs
   :bpm: 140
   :key: Db
+  :banger: true
 
 - :title: Astronomia
   :artist: Vicetone, Tony Igy
   :bpm: 126
   :key: Gm
+  :banger: false
 
 - :title: Going Bad
   :artist: Meek Mill, Drake
   :bpm: 86
   :key: Bm
+  :banger: false
 
 # Extra songs to fill out the graph
 
@@ -674,3 +747,8 @@
   :artist: Marnik
   :bpm: 138
   :key: :Cm
+
+- :title: Closer (Tegan & Sara)
+  :artist: Tegan & Sara
+  :bpm: 137
+  :key: C
