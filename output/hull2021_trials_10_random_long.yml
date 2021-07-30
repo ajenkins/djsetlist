@@ -1,0 +1,445 @@
+---
+- :title: Gas Pedal
+  :artist: Sage the Gemini
+  :bpm: 97
+  :key: :Fm
+  :banger: false
+- :title: Closer
+  :artist: The Chainsmokers, Halsey
+  :bpm: 95
+  :key: Ab
+  :banger: false
+- :title: Here With Me
+  :artist: Marshmello, CHVRCHES
+  :bpm: 100
+  :key: :Eb
+- :title: Do It Again
+  :artist: Pia Mia, Chris Brown, Tyga
+  :bpm: 96
+  :key: :Ab
+  :banger: false
+- :title: Tra Tra
+  :artist: N-Fasis
+  :bpm: 96
+  :key: :Fm
+- :title: XXXTC
+  :artist: Brooke Candy, Charli XCX
+  :bpm: 95
+  :key: :Cm
+  :banger: false
+- :title: Fancy
+  :artist: Iggy Azalea, Charli XCX
+  :bpm: 95
+  :key: :Cm
+- :title: Address It
+  :artist: LPB Poody
+  :bpm: 94
+  :key: :Gm
+  :banger: false
+- :title: Kream
+  :artist: Iggy Azalea, Tyga
+  :bpm: 87
+  :key: :Bb
+  :banger: false
+- :title: Walked In
+  :artist: Ultradixo
+  :bpm: 80
+  :key: :Gm
+- :title: Ice Me Out
+  :artist: Kash Doll
+  :bpm: 75
+  :key: :Cm
+- :title: Rescue
+  :artist: Zeds Dead
+  :bpm: 145
+  :key: :Fm
+  :banger: false
+- :title: BLACKOUT
+  :artist: Lil Kapow
+  :bpm: 75
+  :key: :Cm
+  :banger: false
+- :title: Dollars
+  :artist: Crankdat
+  :bpm: 148
+  :key: :Eb
+- :title: Light
+  :artist: San Holo
+  :bpm: 150
+  :key: :Ab
+- :title: BedRock
+  :artist: Young Money, Lloyd
+  :bpm: 148
+  :key: Eb
+  :banger: true
+- :title: TOES
+  :artist: DaBaby, Lil Baby
+  :bpm: 80
+  :key: :Cm
+  :banger: false
+- :title: Vibe (If I Back It Up)
+  :artist: Cookiee Kawaii
+  :bpm: 80
+  :key: :Gm
+- :title: Boss
+  :artist: Hott Headzz
+  :bpm: 75
+  :key: :Dm
+  :banger: false
+- :title: Then Leave
+  :artist: BeatKing, Queendome Come
+  :bpm: 70
+  :key: :Gm
+  :banger: false
+- :title: Up & Down
+  :artist: Marnik
+  :bpm: 138
+  :key: :Cm
+- :title: Hood Baby
+  :artist: KBFR
+  :bpm: 126
+  :key: Gm
+  :banger: false
+- :title: Titanium
+  :artist: David Guetta, Sia
+  :bpm: 126
+  :key: :Cm
+  :banger: true
+- :title: Anything
+  :artist: Alison Wonderland, Valention Khan
+  :bpm: 120
+  :key: :Fm
+  :banger: false
+- :title: Ghosts 'n' Stuff
+  :artist: Deadmau5
+  :bpm: 128
+  :key: :Bbm
+  :banger: true
+- :title: Run Away With Me
+  :artist: Carly Rae Jepsen
+  :bpm: 119
+  :key: Db
+  :banger: false
+- :title: I Love It
+  :artist: Icona Pop, Charli XCX
+  :bpm: 126
+  :key: :Ab
+  :banger: true
+- :title: Heaven
+  :artist: Do, DJ Sammy
+  :bpm: 138
+  :key: :Eb
+- :title: The Fever
+  :artist: Bassjackers, Breathe Carolina, Apek
+  :bpm: 128
+  :key: :Cm
+- :title: Roses (Imanbek Remix)
+  :artist: SAINt JHN
+  :bpm: 122
+  :key: :Fm
+  :banger: true
+- :title: The Game
+  :artist: Jauz
+  :bpm: 125
+  :key: :Ab
+  :banger: false
+- :title: Too Good
+  :artist: Breathe Carolina
+  :bpm: 122
+  :key: :Eb
+  :banger: false
+- :title: Let Me Love You (Marshmello Remix)
+  :artist: DJ Snake, Justin Bieber
+  :bpm: 120
+  :key: :Cm
+- :title: Astronomia
+  :artist: Vicetone, Tony Igy
+  :bpm: 126
+  :key: Gm
+  :banger: false
+- :title: Like I Do
+  :artist: David Guetta, Martin Garrix
+  :bpm: 128
+  :key: :Cm
+- :title: Why is Everything Chrome?
+  :artist: King Critical
+  :bpm: 70
+  :key: :Cm
+  :banger: true
+- :title: Money
+  :artist: Cardi B
+  :bpm: 65
+  :key: :Gm
+  :banger: false
+- :title: Lalala
+  :artist: Y2K, bbno$
+  :bpm: 65
+  :key: :Dm
+- :title: Voices
+  :artist: KSHMR
+  :bpm: 128
+  :key: :F
+- :title: Genesis
+  :artist: Justice
+  :bpm: 117
+  :key: Dm
+  :banger: false
+- :title: Cartier
+  :artist: Dopebwoy, Chivv, 3robi
+  :bpm: 127
+  :key: :Am
+  :banger: false
+- :title: Splash
+  :artist: Championxiii
+  :bpm: 69
+  :key: :Em
+  :banger: true
+- :title: Testament
+  :artist: JayKode
+  :bpm: 150
+  :key: :Am
+  :banger: false
+- :title: Rockstar Shit
+  :artist: BLIND.SEE, BYROZA
+  :bpm: 70
+  :key: :Em
+  :banger: true
+- :title: I Like Him
+  :artist: Princess Nokia
+  :bpm: 66
+  :key: :Em
+- :title: Happy (K?D Remix)
+  :artist: Annabel Jones
+  :bpm: 123
+  :key: :Em
+- :title: In The Party
+  :artist: Flo Milli
+  :bpm: 67
+  :key: :Am
+  :banger: true
+- :title: Mo Bamba
+  :artist: Sheck Wes
+  :bpm: 73
+  :key: :Em
+  :banger: true
+- :title: Nightlight (Kaivon Remix)
+  :artist: Illenium, Annika Wells
+  :bpm: 150
+  :key: :Bm
+- :title: Origin
+  :artist: JayKode
+  :bpm: 164
+  :key: :Em
+- :title: Dum Dee Dum
+  :artist: Keys N Krates
+  :bpm: 160
+  :key: :Em
+  :banger: false
+- :title: Make Me Cry (Marshmello Remix)
+  :artist: Noah Cyrus, Labrinth
+  :bpm: 155
+  :key: :Am
+- :title: WHATS POPPIN
+  :artist: Jack Harlow
+  :bpm: 73
+  :key: :Em
+- :title: Shatter Me
+  :artist: Lindsey Stirling
+  :bpm: 145
+  :key: :Am
+- :title: Kneel Before Me
+  :artist: Slander, CRANKDAT
+  :bpm: 150
+  :key: :Em
+  :banger: false
+- :title: Lottery (Renegade)
+  :artist: K Camp
+  :bpm: 75
+  :key: :Bm
+  :banger: false
+- :title: Alone
+  :artist: Marshmello
+  :bpm: 142
+  :key: :D
+- :title: All This Time
+  :artist: Deorro
+  :bpm: 130
+  :key: :A
+  :banger: true
+- :title: Opa
+  :artist: Dimitri Vegas & Like Mike, KSHMR
+  :bpm: 128
+  :key: :F#m
+- :title: Party Girl
+  :artist: StaySolidRocky
+  :bpm: 65
+  :key: :F#m
+  :banger: false
+- :title: Mama (Tiesto's Big Room Remix)
+  :artist: Clean Bandit, Ellie Goulding
+  :bpm: 126
+  :key: :C#m
+  :banger: false
+- :title: City of Dreams
+  :artist: Dirty South, Alesso, Ruben Haze
+  :bpm: 128
+  :key: :E
+- :title: Don't Hurt
+  :artist: Mike Williams, Brezy
+  :bpm: 128
+  :key: :C#m
+- :title: REDLIGHT
+  :artist: NGHTMARE, A$AP Ferg
+  :bpm: 70
+  :key: :C#m
+  :banger: false
+- :title: Close To Me
+  :artist: Ellie Goulding, Diplo, Swae Lee
+  :bpm: 144
+  :key: :C#m
+- :title: Blood // Water
+  :artist: Grandson
+  :bpm: 154
+  :key: :G#m
+- :title: Told Ya
+  :artist: Whipped Cream, Lil Xan
+  :bpm: 85
+  :key: :G#m
+  :banger: false
+- :title: Leave You in the Ground
+  :artist: Zeds Dead, Omar LinX
+  :bpm: 82
+  :key: :G#m
+- :title: GOOBA
+  :artist: 6ix9ine
+  :bpm: 89
+  :key: :Ebm
+  :banger: true
+- :title: Batman
+  :artist: LPB Poody
+  :bpm: 81
+  :key: Bbm
+  :banger: true
+- :title: HUMBLE.
+  :artist: Kendrick Lamar
+  :bpm: 150
+  :key: :Bbm
+  :banger: false
+- :title: UCLA
+  :artist: RL Grime, 24hrs
+  :bpm: 140
+  :key: Db
+  :banger: true
+- :title: Kuaga (Lost Time)
+  :artist: Pierce Fulton
+  :bpm: 128
+  :key: Db
+  :banger: false
+- :title: Boss Bitch
+  :artist: Doja Cat
+  :bpm: 126
+  :key: :Bbm
+- :title: Lovefool
+  :artist: twocolors
+  :bpm: 123
+  :key: :Ebm
+  :banger: true
+- :title: Winnebago (Dropgun Remix)
+  :artist: Gryffin, Quinn XCII, Daniel Wilson
+  :bpm: 128
+  :key: :G#m
+  :banger: false
+- :title: Stay
+  :artist: Yves V, Matthew Hill, Betsy Blue
+  :bpm: 125
+  :key: B
+  :banger: false
+- :title: Play Hard
+  :artist: David Guetta
+  :bpm: 130
+  :key: B
+  :banger: true
+- :title: Breathe 2.0
+  :artist: Vincent
+  :bpm: 140
+  :key: :E
+- :title: Alive
+  :artist: Krewella
+  :bpm: 128
+  :key: :A
+- :title: Lovers on the Sun
+  :artist: David Guetta
+  :bpm: 125
+  :key: :F#m
+- :title: Hotel Room Service
+  :artist: Pitbull
+  :bpm: 126
+  :key: :F#m
+  :banger: true
+- :title: Split (Only U)
+  :artist: Tiesto, The Chainsmokers
+  :bpm: 128
+  :key: :C#m
+- :title: Delirious (Boneless)
+  :artist: Steve Aoki, Kid Ink
+  :bpm: 128
+  :key: G#m
+  :banger: true
+- :title: In My Mind
+  :artist: Dynoro, Gigi D'Agostino
+  :bpm: 126
+  :key: :Ebm
+- :title: Double Trouble
+  :artist: Tiesto
+  :bpm: 125
+  :key: Gb
+  :banger: false
+- :title: Strobe
+  :artist: Deadmau5
+  :bpm: 128
+  :key: :B
+- :title: The Long Way Home
+  :artist: Gazzo, Allie Crystal
+  :bpm: 125
+  :key: :B
+- :title: Better When You're Gone
+  :artist: David Guetta, Brooks, Loote
+  :bpm: 128
+  :key: :E
+- :title: Hide & Seek
+  :artist: Felon
+  :bpm: 124
+  :key: :A
+  :banger: false
+- :title: Wolves
+  :artist: Selena Gomez, Marshmello
+  :bpm: 125
+  :key: D
+  :banger: false
+- :title: And to Those I Love
+  :artist: "$uicideboy$"
+  :bpm: 114
+  :key: :D
+  :banger: true
+- :title: Changa (Blanke Remix)
+  :artist: Pnau
+  :bpm: 110
+  :key: :A
+- :title: Something Just Like This
+  :artist: The Chainsmokers, Coldplay
+  :bpm: 103
+  :key: D
+  :banger: false
+- :title: Just Miss Love
+  :artist: Benny Benassi
+  :bpm: 105
+  :key: :A
+  :banger: true
+- :title: Like That
+  :artist: Doja Cat, Gucci Mane
+  :bpm: 106
+  :key: :F#m
+- :title: CHOOSIN SZN
+  :artist: KINGMOSTWANTED
+  :bpm: 105
+  :key: :C#m
