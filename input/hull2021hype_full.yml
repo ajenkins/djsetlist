@@ -466,6 +466,12 @@
   :key: Bm
   :banger: false
 
+- :title: WAP
+  :artist: Cardi B, Megan Thee Stallion
+  :bpm: 133
+  :key: :Bm
+  :banger: true
+
 # Extra songs to fill out the graph
 
 - :title: I Like Him
