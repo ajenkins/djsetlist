@@ -1,0 +1,426 @@
+---
+- :title: Lovefool
+  :artist: twocolors
+  :bpm: 123
+  :key: :Ebm
+  :banger: true
+- :title: Ghosts 'n' Stuff
+  :artist: Deadmau5
+  :bpm: 128
+  :key: :Bbm
+  :banger: true
+- :title: Run Away With Me
+  :artist: Carly Rae Jepsen
+  :bpm: 119
+  :key: Db
+  :banger: false
+- :title: Kuaga (Lost Time)
+  :artist: Pierce Fulton
+  :bpm: 128
+  :key: Db
+  :banger: true
+- :title: WIPEITDOWN
+  :artist: BMW KENNY
+  :bpm: 140
+  :key: Bbm
+  :banger: false
+- :title: UCLA
+  :artist: RL Grime, 24hrs
+  :bpm: 140
+  :key: Db
+  :banger: true
+- :title: Light
+  :artist: San Holo
+  :bpm: 150
+  :key: :Ab
+- :title: BedRock
+  :artist: Young Money, Lloyd
+  :bpm: 148
+  :key: Eb
+  :banger: true
+- :title: Heaven
+  :artist: Do, DJ Sammy
+  :bpm: 138
+  :key: :Eb
+- :title: Titanium
+  :artist: David Guetta, Sia
+  :bpm: 126
+  :key: :Cm
+  :banger: true
+- :title: Like I Do
+  :artist: David Guetta, Martin Garrix
+  :bpm: 128
+  :key: :Cm
+- :title: Too Good
+  :artist: Breathe Carolina
+  :bpm: 122
+  :key: :Eb
+  :banger: false
+- :title: I Love It
+  :artist: Icona Pop, Charli XCX
+  :bpm: 126
+  :key: :Ab
+  :banger: true
+- :title: The Game
+  :artist: Jauz
+  :bpm: 125
+  :key: :Ab
+  :banger: false
+- :title: Nevada
+  :artist: Vicetone
+  :bpm: 124
+  :key: :Eb
+- :title: The Fever
+  :artist: Bassjackers, Breathe Carolina, Apek
+  :bpm: 128
+  :key: :Cm
+- :title: Hood Baby
+  :artist: KBFR
+  :bpm: 126
+  :key: Gm
+  :banger: false
+- :title: Lalala
+  :artist: Y2K, bbno$
+  :bpm: 65
+  :key: :Dm
+- :title: White Mercedes (EDX Remix)
+  :artist: Charli XCX
+  :bpm: 124
+  :key: :F
+  :banger: false
+- :title: Voices
+  :artist: KSHMR
+  :bpm: 128
+  :key: :F
+- :title: Genesis
+  :artist: Justice
+  :bpm: 117
+  :key: Dm
+  :banger: false
+- :title: Cartier
+  :artist: Dopebwoy, Chivv, 3robi
+  :bpm: 127
+  :key: :Am
+  :banger: false
+- :title: DAYLIGHT
+  :artist: TELYKast, One True God
+  :bpm: 125
+  :key: :Em
+- :title: In The Party
+  :artist: Flo Milli
+  :bpm: 67
+  :key: :Am
+  :banger: true
+- :title: Happy (K?D Remix)
+  :artist: Annabel Jones
+  :bpm: 123
+  :key: :Em
+- :title: Bella ciao (Hugel Remix)
+  :artist: El Professor
+  :bpm: 126
+  :key: :Em
+  :banger: false
+- :title: Splash
+  :artist: Championxiii
+  :bpm: 69
+  :key: :Em
+  :banger: true
+- :title: Lottery (Renegade)
+  :artist: K Camp
+  :bpm: 75
+  :key: :Bm
+  :banger: false
+- :title: Mo Bamba
+  :artist: Sheck Wes
+  :bpm: 73
+  :key: :Em
+  :banger: true
+- :title: Make Me Cry (Marshmello Remix)
+  :artist: Noah Cyrus, Labrinth
+  :bpm: 155
+  :key: :Am
+- :title: Geek'd
+  :artist: Bhad Bhabie, Lil Baby
+  :bpm: 82
+  :key: :Dm
+- :title: Walked In
+  :artist: Ultradixo
+  :bpm: 80
+  :key: :Gm
+- :title: Kream
+  :artist: Iggy Azalea, Tyga
+  :bpm: 87
+  :key: :Bb
+  :banger: false
+- :title: Vibe (If I Back It Up)
+  :artist: Cookiee Kawaii
+  :bpm: 80
+  :key: :Gm
+- :title: Boss
+  :artist: Hott Headzz
+  :bpm: 75
+  :key: :Dm
+  :banger: false
+- :title: Testament
+  :artist: JayKode
+  :bpm: 150
+  :key: :Am
+  :banger: false
+- :title: Dum Dee Dum
+  :artist: Keys N Krates
+  :bpm: 160
+  :key: :Em
+  :banger: false
+- :title: Shatter Me
+  :artist: Lindsey Stirling
+  :bpm: 145
+  :key: :Am
+- :title: I Like Him
+  :artist: Princess Nokia
+  :bpm: 66
+  :key: :Em
+- :title: WAP
+  :artist: Cardi B, Megan Thee Stallion
+  :bpm: 133
+  :key: :Bm
+  :banger: true
+- :title: Opa
+  :artist: Dimitri Vegas & Like Mike, KSHMR
+  :bpm: 128
+  :key: :F#m
+- :title: REDLIGHT
+  :artist: NGHTMARE, A$AP Ferg
+  :bpm: 70
+  :key: :C#m
+  :banger: false
+- :title: City of Dreams
+  :artist: Dirty South, Alesso, Ruben Haze
+  :bpm: 128
+  :key: :E
+- :title: Stay
+  :artist: Yves V, Matthew Hill, Betsy Blue
+  :bpm: 125
+  :key: B
+  :banger: false
+- :title: Play Hard
+  :artist: David Guetta
+  :bpm: 130
+  :key: B
+  :banger: true
+- :title: Breathe 2.0
+  :artist: Vincent
+  :bpm: 140
+  :key: :E
+- :title: All This Time
+  :artist: Deorro
+  :bpm: 130
+  :key: :A
+  :banger: true
+- :title: Wolves
+  :artist: Selena Gomez, Marshmello
+  :bpm: 125
+  :key: D
+  :banger: false
+- :title: Hide & Seek
+  :artist: Felon
+  :bpm: 124
+  :key: :A
+  :banger: false
+- :title: Better When You're Gone
+  :artist: David Guetta, Brooks, Loote
+  :bpm: 128
+  :key: :E
+- :title: Split (Only U)
+  :artist: Tiesto, The Chainsmokers
+  :bpm: 128
+  :key: :C#m
+- :title: Delirious (Boneless)
+  :artist: Steve Aoki, Kid Ink
+  :bpm: 128
+  :key: G#m
+  :banger: true
+- :title: Don't Hurt
+  :artist: Mike Williams, Brezy
+  :bpm: 128
+  :key: :C#m
+- :title: Lovers on the Sun
+  :artist: David Guetta
+  :bpm: 125
+  :key: :F#m
+- :title: Hotel Room Service
+  :artist: Pitbull
+  :bpm: 126
+  :key: :F#m
+  :banger: true
+- :title: Party Girl
+  :artist: StaySolidRocky
+  :bpm: 65
+  :key: :F#m
+  :banger: false
+- :title: Mama (Tiesto's Big Room Remix)
+  :artist: Clean Bandit, Ellie Goulding
+  :bpm: 126
+  :key: :C#m
+  :banger: false
+- :title: Winnebago (Dropgun Remix)
+  :artist: Gryffin, Quinn XCII, Daniel Wilson
+  :bpm: 128
+  :key: :G#m
+  :banger: false
+- :title: The Long Way Home
+  :artist: Gazzo, Allie Crystal
+  :bpm: 125
+  :key: :B
+- :title: Double Trouble
+  :artist: Tiesto
+  :bpm: 125
+  :key: Gb
+  :banger: false
+- :title: In My Mind
+  :artist: Dynoro, Gigi D'Agostino
+  :bpm: 126
+  :key: :Ebm
+- :title: Boss Bitch
+  :artist: Doja Cat
+  :bpm: 126
+  :key: :Bbm
+- :title: Anything
+  :artist: Alison Wonderland, Valention Khan
+  :bpm: 120
+  :key: :Fm
+  :banger: false
+- :title: Roses (Imanbek Remix)
+  :artist: SAINt JHN
+  :bpm: 122
+  :key: :Fm
+  :banger: true
+- :title: Let Me Love You (Marshmello Remix)
+  :artist: DJ Snake, Justin Bieber
+  :bpm: 120
+  :key: :Cm
+- :title: Money
+  :artist: Cardi B
+  :bpm: 65
+  :key: :Gm
+  :banger: false
+- :title: Astronomia
+  :artist: Vicetone, Tony Igy
+  :bpm: 126
+  :key: Gm
+  :banger: false
+- :title: Up & Down
+  :artist: Marnik
+  :bpm: 138
+  :key: :Cm
+- :title: Dollars
+  :artist: Crankdat
+  :bpm: 148
+  :key: :Eb
+- :title: Why is Everything Chrome?
+  :artist: King Critical
+  :bpm: 70
+  :key: :Cm
+  :banger: true
+- :title: Flesh
+  :artist: Ghostemane
+  :bpm: 71
+  :key: :Fm
+  :banger: true
+- :title: Ice Me Out
+  :artist: Kash Doll
+  :bpm: 75
+  :key: :Cm
+- :title: BLACKOUT
+  :artist: Lil Kapow
+  :bpm: 75
+  :key: :Cm
+  :banger: false
+- :title: Rescue
+  :artist: Zeds Dead
+  :bpm: 145
+  :key: :Fm
+  :banger: false
+- :title: HUMBLE.
+  :artist: Kendrick Lamar
+  :bpm: 150
+  :key: :Bbm
+  :banger: false
+- :title: Batman
+  :artist: LPB Poody
+  :bpm: 81
+  :key: Bbm
+  :banger: true
+- :title: GOOBA
+  :artist: 6ix9ine
+  :bpm: 89
+  :key: :Ebm
+  :banger: true
+- :title: Leave You in the Ground
+  :artist: Zeds Dead, Omar LinX
+  :bpm: 82
+  :key: :G#m
+- :title: Jumpin', Jumpin'
+  :artist: Destiny's Child
+  :bpm: 89
+  :key: :G#m
+  :banger: true
+- :title: ROCKSTAR
+  :artist: DaBaby, Roddy Ricch
+  :bpm: 90
+  :key: :G#m
+  :banger: true
+- :title: Told Ya
+  :artist: Whipped Cream, Lil Xan
+  :bpm: 85
+  :key: :G#m
+  :banger: false
+- :title: Blood // Water
+  :artist: Grandson
+  :bpm: 154
+  :key: :G#m
+- :title: Close To Me
+  :artist: Ellie Goulding, Diplo, Swae Lee
+  :bpm: 144
+  :key: :C#m
+- :title: SICKO MODE
+  :artist: Travis Scott
+  :bpm: 77
+  :key: :F#m
+  :banger: true
+- :title: Nightlight (Kaivon Remix)
+  :artist: Illenium, Annika Wells
+  :bpm: 150
+  :key: :Bm
+- :title: Rockstar Shit
+  :artist: BLIND.SEE, BYROZA
+  :bpm: 70
+  :key: :Em
+  :banger: true
+- :title: Kneel Before Me
+  :artist: Slander, CRANKDAT
+  :bpm: 150
+  :key: :Em
+  :banger: false
+- :title: Origin
+  :artist: JayKode
+  :bpm: 164
+  :key: :Em
+- :title: Going Bad
+  :artist: Meek Mill, Drake
+  :bpm: 86
+  :key: Bm
+  :banger: false
+- :title: Rompelo
+  :artist: DJ Pedro Fuentas, Mad Fuentas
+  :bpm: 95
+  :key: :Em
+- :title: Turn Down For What
+  :artist: DJ Snake, Lil Jon
+  :bpm: 100
+  :key: :Em
+  :banger: true
+- :title: Coño
+  :artist: PURI, Jhorrmountain, Adje
+  :bpm: 100
+  :key: :Am
+  :banger: true
